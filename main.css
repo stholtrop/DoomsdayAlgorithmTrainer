@@ -1,0 +1,83 @@
+body {
+    font-family: monospace;
+    background: #300a24;
+    color: #ffffff;
+    text-align: center;
+}
+
+a:link {
+    color: #39ff14;
+}
+
+#correct {
+    color: #39ff14;
+    font-size: 200%;
+    font-weight: bold;
+    
+}
+
+.weekday {
+    margin: 5px;
+    display:inline-block;
+}
+
+.weekdays {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text {
+    width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#failed {
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    clear: both;
+    width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.box {
+    width: 50%;
+    text-align: center;
+    float : left;
+    margin-bottom: 10px;
+}
+.container {
+
+    width: 400px;
+    margin: 0 auto;
+}
+.button {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.date {
+    color:#39ff14;
+    text-align: center;
+}
+
+a:visited {
+    color: #4c9408ff;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+input[type=date] {
+    background-color: #300a24;
+    color: #ffffff;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doomsday algorithm trainer</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Doomsday Algorithm Practice</h1>
+    <div class="text">
+        <p>This webpage allows you to test your ability to
+            perform the Doomsday algorithm, as explained in 
+            <a href="https://www.youtube.com/watch?v=z2x3SSBVGJU">this numberphile video</a>.
+           This applet will prompt you with a random date. You then answer what day of the week this is. 
+           Upon which you will provided with feedback.
+       </p>
+       <p>
+            Generate a random date from the following date range:
+       </p>
+    </div>
+
+    <div class="container">
+        <div class="box"><input type="date" id="start" value="1000-01-01"></div>
+        <div class="box"><input type="date" id="end" value="4000-12-31"></div>
+    </div>
+
+        
+    <div class="button">
+        <button type="button" id="generate">Generate</button>
+    </div>
+
+    <div id="failed">
+
+    </div>
+
+    <div id="interactive">
+
+    </div>
+
+
+    <div id="correct">
+
+    </div>
+
+    <script src="app.js"></script>
+    </body>
+</html>
